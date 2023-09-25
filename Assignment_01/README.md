@@ -13,7 +13,7 @@
 ```
 
 ### Instraction
-- write main.c and Makefile
+- main.c and Makefile
 
 ### Help
 ```
