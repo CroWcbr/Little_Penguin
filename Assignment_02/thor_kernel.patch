@@ -1,0 +1,11 @@
+--- Makefile_6.5.5.orig	2023-09-25 22:54:00.449000000 +0200
++++ Makefile_6.5.5		2023-09-25 22:54:30.257000000 +0200
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 5
+ SUBLEVEL = 5
+-EXTRAVERSION =
++EXTRAVERSION = -thor_kernel
+ NAME = Hurr durr I'ma ninja sloth
+ 
+ # *DOCUMENTATION*
