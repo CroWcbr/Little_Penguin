@@ -1,0 +1,11 @@
+ACTION=="add", \
+SUBSYSTEM=="input", \
+ENV{ID_BUS}="usb", \
+ENV{ID_INPUT_MOUSE}="1", \
+RUN+="/home/blfs/Little_Pinguin/ex04/insert.sh"
+
+ACTION=="remove", \
+SUBSYSTEM=="input", \
+ENV{ID_BUS}="usb", \
+ENV{ID_INPUT_MOUSE}="1", \
+RUN+="/home/blfs/Little_Pinguin/ex04/remove.sh"
