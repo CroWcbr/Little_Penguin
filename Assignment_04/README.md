@@ -1,4 +1,4 @@
-## Assignment 00
+## Assignment 04
 
 ### Task
 - Take the kernel module you wrote for task 01, and modify it so that when any USB keyboard is plugged in, the module will be automatically loaded by the correct userspace hotplug tools (which are implemented by depmod / kmod / udev / mdev / systemd, depending on what distro you are using.)
@@ -9,7 +9,7 @@
 my mouse identify as keyboard, i don't understend it...
 so I add rules to keyboard ENV{ID_VENDOR_ID}!="046d"
 ```
-- i write rules for udev
+- write rules for udev
 ```
 98-mouse.rules
 99-keyboard.rules

@@ -1,4 +1,4 @@
-## Assignment 00
+## Assignment 01
 
 ### Task
 - Build a "Hello World module" with the following behaviour:

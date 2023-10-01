@@ -1,0 +1,31 @@
+[ 5581.173335] misc device my_init : register misc device!
+[ 5587.433928] misc device my_open : open called
+[ 5587.433935] misc device my_open : device number 10 125
+[ 5587.433939] misc device my_open : open called with write permission
+[ 5587.433954] misc device my_write : write called
+[ 5587.433957] misc device my_write : invalid value
+[ 5587.433973] misc device my_close : close called
+[ 5592.891379] misc device my_open : open called
+[ 5592.891385] misc device my_open : device number 10 125
+[ 5592.891389] misc device my_open : open called with write permission
+[ 5592.891405] misc device my_write : write called
+[ 5592.891408] misc device my_write : invalid value
+[ 5592.891426] misc device my_close : close called
+[ 5602.865931] misc device my_open : open called
+[ 5602.865935] misc device my_open : device number 10 125
+[ 5602.865937] misc device my_open : open called with read permission
+[ 5602.865946] misc device my_read : read called
+[ 5602.866024] misc device my_read : read called
+[ 5602.866036] misc device my_close : close called
+[ 5608.594139] misc device my_open : open called
+[ 5608.594144] misc device my_open : device number 10 125
+[ 5608.594145] misc device my_open : open called with write permission
+[ 5608.594156] misc device my_write : write called
+[ 5608.594159] misc device my_close : close called
+[ 5614.759106] misc device my_open : open called
+[ 5614.759110] misc device my_open : device number 10 125
+[ 5614.759112] misc device my_open : open called with read permission
+[ 5614.759122] misc device my_read : read called
+[ 5614.772142] misc device my_read : read called
+[ 5614.772171] misc device my_close : close called
+[ 5620.773502] misc device my_exit : deregister misc device
