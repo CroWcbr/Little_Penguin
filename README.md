@@ -7,3 +7,4 @@ Linux Kernel Development escole 42
 
 ## Reference
 - book : Linux Device Driver 3rd Edition
+- https://www.kernel.org/doc/html/latest/filesystems/index.html

@@ -1,0 +1,36 @@
+[ 8012.341979] my_init : register
+[ 8012.341996] my_init : fortytwo dir created.
+[ 8012.342053] my_init : id file created.
+[ 8012.342057] my_init : jiffies file created.
+[ 8012.342060] my_init : foo file created.
+[ 8012.342062] my_init : register successfully
+
+[ 8058.512386] my_open : open called id
+[ 8058.512392] my_open : open called with read permission : id
+[ 8058.512415] id_read : read called
+[ 8058.512502] id_read : read called
+[ 8058.512522] my_close : close called id
+[ 8065.620976] my_open : open called foo
+[ 8065.620981] my_open : open called with read permission : foo
+[ 8065.620991] foo_read : read called
+[ 8065.621000] my_close : close called foo
+
+[ 8102.911944] my_open : open called id
+[ 8102.911949] my_open : open called with write permission : id
+[ 8102.911964] id_write : write called
+[ 8102.911965] id_write : invalid value
+[ 8102.911977] my_close : close called id
+[ 8110.520837] my_open : open called foo
+[ 8110.520843] my_open : open called with write permission : foo
+[ 8110.520861] foo_write : write called
+[ 8110.520865] my_close : close called foo
+
+[ 8167.551311] my_open : open called id
+[ 8167.551316] my_open : open called with write permission : id
+[ 8167.551392] id_write : write called
+[ 8167.551397] my_close : close called id
+[ 8174.418223] my_open : open called foo
+[ 8174.418229] my_open : open called with write permission : foo
+[ 8174.418247] foo_write : write called
+[ 8174.418251] my_close : close called foo
+
