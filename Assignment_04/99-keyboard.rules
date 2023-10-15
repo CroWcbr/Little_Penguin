@@ -2,12 +2,4 @@ ACTION=="add", \
 SUBSYSTEM=="input", \
 ENV{ID_BUS}="usb", \
 ENV{ID_INPUT_KEYBOARD}="1", \
-ENV{ID_VENDOR_ID}!="046d", \
-RUN+="/home/blfs/Little_Pinguin/ex04/insert.sh"
-
-ACTION=="remove", \
-SUBSYSTEM=="input", \
-ENV{ID_BUS}="usb", \
-ENV{ID_INPUT_KEYBOARD}="1", \
-ENV{ID_VENDOR_ID}!="046d", \
-RUN+="/home/blfs/Little_Pinguin/ex04/remove.sh"
+RUN+="/home/blfs/Little_Pinguin/Assignment_04/insert.sh"

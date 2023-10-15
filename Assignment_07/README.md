@@ -16,6 +16,7 @@
 - test device
 ```
 mount -t debugfs none /sys/kernel/debug
+chmod o+rx /sys/kernel/debug/
 
-ls /sys/kernel/debug/fortytwo
+ls -s /sys/kernel/debug/fortytwo
 ```

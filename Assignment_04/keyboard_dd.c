@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -9,13 +10,13 @@ MODULE_VERSION("1.0");
 
 static int __init insert(void)
 {
-        printk(KERN_INFO "USB keyboard is plugged in\n");
-        return 0;
+	pr_info("USB keyboard is plugged in\n");
+	return 0;
 }
 
 static void __exit remove(void)
 {
-        printk(KERN_INFO "USB keyboard is plugged out\n");
+	pr_info("rmmod keyboard_dd module\n");
 }
 
 module_init(insert);
