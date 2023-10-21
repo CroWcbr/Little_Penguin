@@ -12,5 +12,5 @@
 ### Help
 - update udev rules
 ```
-sudo udevadm control --reload-rules
+reboot
 ```

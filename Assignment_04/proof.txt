@@ -1,0 +1,9 @@
+[   15.517449] udevd[225]: Starting systemd-udevd version 254
+[   15.558408] udevd[226]: Using default interface naming scheme 'v253'.
+[   16.170689] keyboard_dd: loading out-of-tree module taints kernel.
+[   16.278873] USB keyboard is plugged in
+[   17.712136] hrtimer: interrupt took 12481990 ns
+[   19.487019] Adding 3145724k swap on /dev/sda2.  Priority:1 extents:1 across:3145724k
+[   19.637378] EXT4-fs (sda3): re-mounted 02175b87-1854-4a60-be03-518e76ade788 ro. Quota mode: none.
+[   20.411675] EXT4-fs (sda3): re-mounted 02175b87-1854-4a60-be03-518e76ade788 r/w. Quota mode: none.
+[   23.795231] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX

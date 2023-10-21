@@ -1,5 +1,6 @@
 ACTION=="add", \
+KERNEL=="input3", \
 SUBSYSTEM=="input", \
 ENV{ID_BUS}="usb", \
 ENV{ID_INPUT_KEYBOARD}="1", \
-RUN+="/home/blfs/Little_Pinguin/Assignment_04/insert.sh"
+RUN+="/home/blfs/Little_Pinguin/ex04/insert.sh"

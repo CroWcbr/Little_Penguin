@@ -11,8 +11,3 @@ Linux Kernel Development escole 42
 
 ## Check
 /usr/src/<kernel>/scripts/checkpatch.pl <file> -no-tree -file --strict
-/usr/src/<kernel>/scripts/checkpatch.pl <file> -no-tree -file --strict
-
-## Error
-- 04 - check at escole42
-
