@@ -15,7 +15,8 @@ static __init int do_work(int my_int)
 	int z;
 
 	for (x = 0; x < my_int; ++x)
-		udelay(10);
+		usleep_range(10000, 11000);
+		// udelay(10);
 
 	if (my_int < 10)
 		pr_info("We slept a long time!");
